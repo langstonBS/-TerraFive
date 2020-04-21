@@ -335,8 +335,8 @@ const laddsAddition = {
 };
 
 const mountTabor = {
-    id: 'Mount Tabor',
-    name: 'mountTabor',
+    id: 'mountTabor',
+    name: 'Mount Tabor',
     image: 'tba',
     thumbnail: '../assets',
     description: `
@@ -365,5 +365,72 @@ const mountTabor = {
         }
     ]
 };
+
+const crystalSprings = {
+    id: 'crystalSprings',
+    name: 'Crystal Springs',
+    image: 'tba',
+    thumbnail: '../assets',
+    description: `
+    Walk through the rhodeodendrum garden and check out shops and food in Woodstock.
+    `,
+    quadrant: 'se',
+    distance: 2.00,
+    season: 'all',
+    views: false,
+    weirdness: 5,
+    attractions: [
+        {
+            name: 'Woodstock Mystery Hole',
+            description: 'Strange hole, explore if you dare.',
+            address: '',
+        }
+    ]
+};
+
+const oaksBottom = {
+    id: 'oaksBottom',
+    name: 'Oaks Bottom',
+    image: 'tba',
+    thumbnail: '../assets',
+    description: `
+    This hike takes you through the wildlife refuge, past the amusement park, and down 13th for shopping and food.
+    `,
+    quadrant: 'se',
+    distance: 3.00,
+    season: 'all',
+    views: true,
+    weirdness: 5,
+    attractions: [
+        {
+            name: 'Puppet Museum',
+            description: 'Strange home of creepy puppets.',
+            address: '',
+        },
+        {
+            name: 'Oaks Amusement Park',
+            description: 'Circus fun!',
+            address: '',
+        }
+    ]
+};
+
+const cityHikesData = [
+    pittockMansion,
+    stJohns,
+    washingtonPark,
+    alberta,
+    laurelhurst,
+    roseCityPark,
+    peninsulaPark,
+    kentonPark,
+    tryonCreek,
+    marquamNaturePark,
+    gabrielPark,
+    laddsAddition,
+    mountTabor,
+    crystalSprings,
+    oaksBottom
+];
 
 export default cityHikesData;
