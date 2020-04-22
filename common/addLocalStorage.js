@@ -1,12 +1,8 @@
 
 
-export default function addLocalStorage(name, object) {
+export default function addLocalStorage(keyValue, object) {
     let stringifyObject = JSON.stringify(object);
-    let key = name.toUpperCase();
+    let key = keyValue.toUpperCase();
     localStorage.setItem(key, stringifyObject);
-
-
-
-
 }
 
