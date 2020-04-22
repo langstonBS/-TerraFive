@@ -15,7 +15,7 @@ import renderAttraction from './renderAttractions.js';
 // const hikeId = searchParams.get('HIKEID');
 
 // To make sure things are working using temporary hikeId before taking in searchparams
-const hikeId = 'WashingtonPark';
+const hikeId = 'pittockMansion';
 
 //Find the hike by id
 const hike = findById(hikeId, hikes);
@@ -29,15 +29,16 @@ if (!hike) {
 
 //Locate all of the destination html elements
 const name = document.getElementById('hike-name');
-// const image = document.getElementById('specific-hike-map'); //needs to grab by an id for the element
+const image = document.getElementById('specific-hike-map'); //needs to grab by an id for the element
 const attractionsDest = document.getElementById('attractions');
+const description = document.getElementById('description');
 // const fav = document.getElementById('favorite); //find favorite html element and then later add event listener for adding / removing from favorites
 // const desc = document.getElementyById('hike-desc'); //find matching element in html
 
 //Set values of existing elements to matching hike details
 name.textContent = hike.name;
-// image.src = hike.image; //check with above
-// desc.textContent = hike.description;
+image.src = hike.image; //check with above
+description.textContent = hike.description;
 
 //For each of the items in hike.attractions
 hike.attractions.forEach(attraction => {
