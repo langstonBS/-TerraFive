@@ -2,8 +2,8 @@
 const pittockMansion = {
     id: 'pittockMansion',
     name: 'Pittock Mansion',
-    image: '../assets',
-    thumbnail: '../assets',
+    image: '../assets/map/googleMap-images/pittock-mansion.png',
+    thumbnail: '../assets/pittockMansion.jpg',
     description: `
         This hike takes you from Pittock Mansion's sweeping views through the woods to the witch's castle and down 23rd for food and shooping.
         `,
@@ -42,8 +42,8 @@ const stJohns = {
 const washingtonPark = {
     id: 'WashingtonPark',
     name: 'Washington Park',
-    image: '../assets',
-    thumbnail: '../assets',
+    image: '../assets/map/googleMap-images/washingtonPark_tight.JPG',
+    thumbnail: 'assets/WashingtonParkArboretum.jpg',
     description: `
         This hike takes you Washington Park's Japanese and Rose Gardens, and either up 23rd or down Burnside to the Pearl district for food and shopping.
         `,
@@ -94,8 +94,8 @@ const washingtonPark = {
 const alberta = {
     id: 'alberta',
     name: 'Alberta',
-    image: '../assets',
-    thumbnail: '../assets',
+    image: '../assets/map/googleMap-images/albertaPark_tight.JPG',
+    thumbnail: '../assets/albertaPark.jpg',
     description: `
         This hike takes you through Alberta Park, down Alberta St for shopping and over to the Kennedy School for food and drinks.
         `,
@@ -121,8 +121,8 @@ const alberta = {
 const laurelhurst = {
     id: 'laurelhurst',
     name: 'Laurelhurst',
-    image: '../assets',
-    thumbnail: '../assets',
+    image: '../assets/map/googleMap-images/laurelhurstPark_tight.JPG',
+    thumbnail: '../assets/laurelhurstPark.jpg',
     description: `
         This hike takes you through Alberta Park, down Alberta St for shopping and over to the Kennedy School for food and drinks.
         `,
@@ -148,8 +148,8 @@ const laurelhurst = {
 const roseCityPark = {
     id: 'roseCityPark',
     name: 'Rose City Park',
-    image: '../assets',
-    thumbnail: '../assets',
+    image: '../assets/map/googleMap-images/roseCityPark_tight.JPG',
+    thumbnail: '../assets/hollywood-theatre.jpg',
     description: `
         This hike takes you through Rose City Park and over to Portland's Hollywood neighborhood for food and shopping.
         `,
@@ -170,8 +170,8 @@ const roseCityPark = {
 const peninsulaPark = {
     id: 'peninsulaPark',
     name: 'Peninsula Park',
-    image: '../assets',
-    thumbnail: '../assets',
+    image: '../assets/map/googleMap-images/peninsulaPark_tight.JPG',
+    thumbnail: '../assets/peninsulaPark.jpg',
     description: `
         This hike takes you through Peninsula Park, down Mississippi Ave for shopping and food, and over to the Alibi Room for karaoke.
         `,
@@ -192,8 +192,8 @@ const peninsulaPark = {
 const kentonPark = {
     id: 'kentonPark',
     name: 'Kenton Park',
-    image: '../assets',
-    thumbnail: '../assets',
+    image: '../assets/map/googleMap-images/kentonPark_tight.JPG',
+    thumbnail: '../assets/kentonPark.jpg',
     description: `
         This hike takes you through Peninsula Park, down Mississippi Ave for shopping and food, and over to the Alibi Room for karaoke.
         `,
@@ -214,8 +214,8 @@ const kentonPark = {
 const tryonCreek = {
     id: 'tryonCreek',
     name: 'Tryon Creek',
-    image: 'tba',
-    thumbnail: '../assets',
+    image: '../assets/map/googleMap-images/tryonCreek_tight.JPG',
+    thumbnail: '../assets/map/googleMap-images/tryonCreek_tight.JPG',
     description: `
         Tryon Creek State Nature Area, home to more than 50 species of birds and mammals, includes hiking and horse trails as well as a bike path.
         `,
@@ -246,8 +246,8 @@ const tryonCreek = {
 const marquamNaturePark = {
     id: 'marquamNaturePark',
     name: 'Marquam Nature Park',
-    image: 'tba',
-    thumbnail: '../assets',
+    image: '../assets/map/googleMap-images/marquamPark_tight.JPG',
+    thumbnail: '../assets/marquamNaturePark.jpg',
     description: `
         Marquam Nature Park is the "Trail" segment of 40-Mile Loop "4T" system which connects other natural areas throughout the metropolital area.
         `,
@@ -278,8 +278,8 @@ const marquamNaturePark = {
 const gabrielPark = {
     id: 'gabrielPark',
     name: 'Gabriel Park',
-    image: 'tba',
-    thumbnail: '../assets',
+    image: '../assets/map/googleMap-images/gabrielPark_tight.JPG',
+    thumbnail: '../assets/gabrielPark.jpg',
     description: `
         Gabriel Park is a wooded public area featuring sports fields and courts, as well as an indoor athletic facility, located between several adjacent residential neighborhoods.
         `,
@@ -305,8 +305,8 @@ const gabrielPark = {
 const laddsAddition = {
     id: 'laddsAddition',
     name: 'Ladd\'s Addition',
-    image: 'tba',
-    thumbnail: '../assets',
+    image: '../assets/map/googleMap-images/laddsAddition_tight.JPG',
+    thumbnail: '../assets/laddsAddition.jpg',
     description:
         `Ladd's Addition is one of the oldest planned residential developments in the western United States, and features a curiously walkable diagonal street pattern which surrounds four diamond- shaped rose test gardens.
         `,
@@ -337,8 +337,8 @@ const laddsAddition = {
 const mountTabor = {
     id: 'mountTabor',
     name: 'Mount Tabor',
-    image: 'tba',
-    thumbnail: '../assets',
+    image: '../assets/map/googleMap-images/mountTabor_tight.JPG',
+    thumbnail: '../assets/mountTabor.jpg',
     description: `
     Mount Tabor is an extinct volcanic butte with four reservoirs along its slopes and features numerous paths around the perimeter with a wonderful view of the city.
     `,
@@ -369,8 +369,8 @@ const mountTabor = {
 const crystalSprings = {
     id: 'crystalSprings',
     name: 'Crystal Springs',
-    image: 'tba',
-    thumbnail: '../assets',
+    image: '../assets/map/googleMap-images/westmorelandPark_tight.JPGba',
+    thumbnail: '../assets/CrystalSpringsRhododendronGardenPortland.jpg',
     description: `
     Walk through the rhodeodendrum garden and check out shops and food in Woodstock.
     `,
@@ -391,8 +391,8 @@ const crystalSprings = {
 const oaksBottom = {
     id: 'oaksBottom',
     name: 'Oaks Bottom',
-    image: 'tba',
-    thumbnail: '../assets',
+    image: '../assets/map/googleMap-images/oaksBottom_tight.JPG',
+    thumbnail: '../assets/OaksBottom.jpg',
     description: `
     This hike takes you through the wildlife refuge, past the amusement park, and down 13th for shopping and food.
     `,
