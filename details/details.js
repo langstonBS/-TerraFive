@@ -1,6 +1,7 @@
 import hikes from '../data/data.js';
 import findById from '../common/findById.js';
 import renderAttraction from './renderAttractions.js';
+import addLocalStorage from '../common/addLocalStorage.js';
 
 //OPEN:
 // Needs an eventListener for the favorites button
@@ -20,7 +21,7 @@ const hikeId = 'pittockMansion';
 //Find the hike by id
 const hike = findById(hikeId, hikes);
 
-console.log(hike);
+//console.log(hike);
 
 // If there is no hike
 if (!hike) {
@@ -44,4 +45,23 @@ description.textContent = hike.description;
 hike.attractions.forEach(attraction => {
     const element = renderAttraction(attraction);
     attractionsDest.append(element);
+});
+
+const favorites = [];
+var checkbox = document.querySelector('input[name=favorite]');
+
+checkbox.addEventListener('change', function() {
+    if (checkbox.checked) {
+        const favHike = findById(hike.id, favorites);
+        if (!favHike) {
+            favorites.push(hike);    
+        }
+        addLocalStorage('favorites', favorites);
+        console.log('Is checked');
+        
+        console.log(favorites);
+    } else 
+    {
+        console.log('Not checked ');
+    }
 });
