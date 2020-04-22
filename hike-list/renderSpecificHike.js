@@ -8,7 +8,7 @@ export default function renderSpecificHike(hike) {
 
     const image = document.createElement('img');
     image.classList.add('icon');
-    image.src = hike.image;
+    image.src = hike.thumbnail;
 
     //Needs to create link to include url params to be passed to Hike Details page
 
