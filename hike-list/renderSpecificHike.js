@@ -6,7 +6,7 @@ export default function renderSpecificHike(hike) {
     const label = document.createElement('label');
     label.classList.add('specific-hike');
 
-    const image = document.createElement('list');
+    const image = document.createElement('img');
     image.classList.add('icon');
     image.src = hike.image;
 
