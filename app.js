@@ -12,7 +12,7 @@ let formData = document.getElementById('log-in');
 //create 
 //if true load into local storage
 //if false then creat a new local strage named the emailid
-
+let error = document.getElementById('errordata');
 
 
 
@@ -22,15 +22,19 @@ formData.addEventListener('submit', (event) => {
     const data = new FormData(formData);
     let nameData = data.get('name');
     let emailData = data.get('email');
-    if (checkLocalStorage(emailData.toUpperCase())) {
+    if (!nameData) {
+        error.textContent = 'enter in a valid name'; 
+    } else if (!emailData) {
+        error.textContent = 'enter in a valid email';
+    } else {
+        if (checkLocalStorage(emailData.toUpperCase())) {
+            window.location = `./city-map/index.html?userId=${emailData.toUpperCase()}`;
+        }
+        let user = createUser(nameData, emailData);
+        addLocalStorage(emailData.toUpperCase(), user);
         window.location = `./city-map/index.html?userId=${emailData.toUpperCase()}`;
+
     }
-    let user = createUser(nameData, emailData);
-    addLocalStorage(emailData.toUpperCase(), user);
-    window.location = `./city-map/index.html?userId=${emailData.toUpperCase()}`;
-
-
-    
 });
 
 
