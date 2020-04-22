@@ -1,5 +1,9 @@
 # -TerraFive
 
+## Projects plans whiteboard
+https://miro.com/app/board/o9J_ktzH1RY=/
+
+
 Project Guidelines
 Welcome to Project Week! Here is a list of best practices for proper Git and GitHub workflow with your project team.
 
