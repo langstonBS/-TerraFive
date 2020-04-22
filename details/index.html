@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="details.css">
+    <title>Hike Details</title>
+</head>
+
+<body>
+    <!-- background image? -->
+    <header>
+        <section class="header-img" id="nav-header">
+            <img> <!-- image as banner in header -->
+            <nav>
+                <a href="../city-map/index.html">City Map</a>
+                <a href="../hike-list/index.html">List of Hikes</a>
+                <a href="../favorites/index.html">Favorites</a>
+                <a href="../about/index.html">About Us</a>
+            </nav>
+        </section>
+    </header>
+    <main>
+        <h1>Details for <span id="hike-name"></span></h1>
+        <form>
+            <button>Add Hike to Favorites</button>
+            <span><img class="specific-hike-map"></span>
+        </form>
+        <section>
+            <!-- render attractions list dynamically? -->
+            <h2>Nearby Attractions:</h2>
+            <ul id="attractions">
+                <li></li>
+            </ul>
+        </section>
+    </main>
+    <script type="module" src="details.js"></script>
+</body>
+
+</html>
