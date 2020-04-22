@@ -1,5 +1,9 @@
-import createUser from './user.js';
+import createUser from './common/user.js';
+import addLocalStorage from './common/addLocalStorage.js';
+import checkLocalStorage from './common/checkLocalStorage.js';
+
 let formData = document.getElementById('log-in');
+
 
 
 //brin in local storage to compair name
@@ -17,10 +21,22 @@ formData.addEventListener('submit', (event) => {
     event.preventDefault();
     const data = new FormData(formData);
     let nameData = data.get('name');
-    let emalData = data.get('email');
-    let x = createUser(nameData, emalData);
-    console.log(x);
+    let emailData = data.get('email');
+    let user;
+    let create = checkLocalStorage(emailData);
+    if (!create) {
+        user = createUser(nameData, emailData); 
+    }
 
+    // take user id and put in search params
+    // else take user from local storage and put id
+    // in search params
+
+
+    //URLSearchParams.append(x, emailData.toUpperCase());
+
+
+    window.location = './city-map/index.html';
 
     //get log in data
     //creates usre 
