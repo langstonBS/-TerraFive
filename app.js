@@ -17,16 +17,24 @@ let formData = document.getElementById('log-in');
 
 
 
-formData.addEventListener('submit', (event) => { 
+formData.addEventListener('submit', (event) => {
     event.preventDefault();
     const data = new FormData(formData);
     let nameData = data.get('name');
     let emailData = data.get('email');
-    let user;
-    let create = checkLocalStorage(emailData);
-    if (!create) {
-        user = createUser(nameData, emailData); 
+    if (checkLocalStorage(emailData.toUpperCase())) {
+        window.location = `./city-map/index.html?userId=${emailData.toUpperCase()}`;
     }
+    let user = createUser(nameData, emailData);
+    addLocalStorage(emailData.toUpperCase(), user);
+    window.location = `./city-map/index.html?userId=${emailData.toUpperCase()}`;
+
+
+    
+});
+
+
+
 
     // take user id and put in search params
     // else take user from local storage and put id
@@ -35,16 +43,8 @@ formData.addEventListener('submit', (event) => {
 
     //URLSearchParams.append(x, emailData.toUpperCase());
 
-
-    window.location = './city-map/index.html';
-
     //get log in data
     //creates usre 
         //userlist
           //
     
-});
-
-
-
-
