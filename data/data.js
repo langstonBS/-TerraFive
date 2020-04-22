@@ -7,7 +7,7 @@ const pittockMansion = {
     description: `
         This hike takes you from Pittock Mansion's sweeping views through the woods to the witch's castle and down 23rd for food and shooping.
         `,
-    quadrant: 'nw',
+    quadrant: 'Northwest',
     distance: 5.70,
     season: 'all',
     views: true,
@@ -27,7 +27,7 @@ const stJohns = {
     description: `
         This hike takes you through forest, over the St. John's bridge, through Cathedral Park, and down Lombard St. for food and shopping.
         `,
-    quadrant: 'nw',
+    quadrant: 'Northwest',
     distance: 8.08,
     season: 'all',
     views: true,
@@ -47,7 +47,7 @@ const washingtonPark = {
     description: `
         This hike takes you Washington Park's Japanese and Rose Gardens, and either up 23rd or down Burnside to the Pearl district for food and shopping.
         `,
-    quadrant: 'nw',
+    quadrant: 'Northwest',
     distance: 3.90,
     season: 'all',
     views: true,
@@ -99,7 +99,7 @@ const alberta = {
     description: `
         This hike takes you through Alberta Park, down Alberta St for shopping and over to the Kennedy School for food and drinks.
         `,
-    quadrant: 'ne',
+    quadrant: 'Northeast',
     distance: 1.00,
     season: 'all',
     views: false,
@@ -126,7 +126,7 @@ const laurelhurst = {
     description: `
         This hike takes you through Alberta Park, down Alberta St for shopping and over to the Kennedy School for food and drinks.
         `,
-    quadrant: 'ne',
+    quadrant: 'Northeast',
     distance: 1.20,
     season: 'all',
     views: false,
@@ -153,7 +153,7 @@ const roseCityPark = {
     description: `
         This hike takes you through Rose City Park and over to Portland's Hollywood neighborhood for food and shopping.
         `,
-    quadrant: 'ne',
+    quadrant: 'Northeast',
     distance: 1.40,
     season: 'all',
     views: false,
@@ -175,7 +175,7 @@ const peninsulaPark = {
     description: `
         This hike takes you through Peninsula Park, down Mississippi Ave for shopping and food, and over to the Alibi Room for karaoke.
         `,
-    quadrant: 'ne',
+    quadrant: 'Northeast',
     distance: 1,
     season: 'all',
     views: false,
@@ -197,7 +197,7 @@ const kentonPark = {
     description: `
         This hike takes you through Peninsula Park, down Mississippi Ave for shopping and food, and over to the Alibi Room for karaoke.
         `,
-    quadrant: 'ne',
+    quadrant: 'Northeast',
     distance: 1,
     season: 'all',
     views: false,
@@ -219,7 +219,7 @@ const tryonCreek = {
     description: `
         Tryon Creek State Nature Area, home to more than 50 species of birds and mammals, includes hiking and horse trails as well as a bike path.
         `,
-    quadrant: 'sw',
+    quadrant: 'Southwest',
     distance: 8.00,
     season: 'all',
     views: false,
@@ -251,7 +251,7 @@ const marquamNaturePark = {
     description: `
         Marquam Nature Park is the "Trail" segment of 40-Mile Loop "4T" system which connects other natural areas throughout the metropolital area.
         `,
-    quadrant: 'sw',
+    quadrant: 'Southwest',
     distance: 7.00,
     season: 'all',
     views: true,
@@ -283,7 +283,7 @@ const gabrielPark = {
     description: `
         Gabriel Park is a wooded public area featuring sports fields and courts, as well as an indoor athletic facility, located between several adjacent residential neighborhoods.
         `,
-    quadrant: 'sw',
+    quadrant: 'Southwest',
     distance: 1.50,
     season: 'all',
     views: false,
@@ -310,7 +310,7 @@ const laddsAddition = {
     description:
         `Ladd's Addition is one of the oldest planned residential developments in the western United States, and features a curiously walkable diagonal street pattern which surrounds four diamond- shaped rose test gardens.
         `,
-    quadrant: 'se',
+    quadrant: 'Southeast',
     distance: 1.50,
     season: 'all',
     views: false,
@@ -342,7 +342,7 @@ const mountTabor = {
     description: `
     Mount Tabor is an extinct volcanic butte with four reservoirs along its slopes and features numerous paths around the perimeter with a wonderful view of the city.
     `,
-    quadrant: 'se',
+    quadrant: 'Southeast',
     distance: 3.00,
     season: 'all',
     views: true,
@@ -374,7 +374,7 @@ const crystalSprings = {
     description: `
     Walk through the rhodeodendrum garden and check out shops and food in Woodstock.
     `,
-    quadrant: 'se',
+    quadrant: 'Southeast',
     distance: 2.00,
     season: 'all',
     views: false,
@@ -396,7 +396,7 @@ const oaksBottom = {
     description: `
     This hike takes you through the wildlife refuge, past the amusement park, and down 13th for shopping and food.
     `,
-    quadrant: 'se',
+    quadrant: 'Southeast',
     distance: 3.00,
     season: 'all',
     views: true,

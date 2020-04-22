@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="hike-list.css">
     <title>List of Hikes</title>
 </head>
@@ -15,18 +15,20 @@
     <header>
         <section class="header-img" id="nav-header">
             <img> <!-- image as banner in header -->
-            <nav>
+            <nav id="nav">
                 <a href="../city-map/index.html">City Map</a>
-                <a href="../hike-list/index.html">List of Hikes</a>
                 <a href="../favorites/index.html">Favorites</a>
                 <a href="../about/index.html">About Us</a>
             </nav>
+            <!-- do we want about me link on the bottom of the page instead? -->
         </section>
     </header>
     <main>
         <h1>List of Recommended City Hikes in <span id="quadrant"></span> Portland</h1>
         <form>
+            <!-- use column structure to organize list data -->
             <!-- should we render the hike list dynamically?  some quadrants have 3 hikes, some have 5 -->
+            <!-- triple check radio button is best here. Is there a way to dynamically render the links to each hike's details page?  -->
             <label class="specific-hike">
                 <img class="icon">
                 <input type="radio" name="hike-link" />
@@ -38,5 +40,6 @@
 </body>
 
 </html>
-
+<!-- need to add pittock mansion map- ok with alan/rest of group first -->
+<!-- get accurate mileage from Alan's map screenshots -->
 <!-- https://github.com/alchemycodelab/fsjs-foundations-march-2020/blob/master/curriculum/class-13/prebuilt-demo/map/index.html -->
