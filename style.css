@@ -1,0 +1,26 @@
+body {
+background-image: url("./assets/old-town-day.jpeg");
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+
+.app-title {
+    color: rgb(241, 233, 233);
+    font-family: 'Lobster', cursive;
+    font-size: 70px;
+    text-shadow: 7px 10px black;
+    display: flex;
+    align-items: center;
+}
+#log-in {
+    background-color: rgba(168, 156, 167, 0.404);
+    color: black;
+    border-radius: 10px;
+    padding: 25px;
+    font-family: 'Anton', sans-serif;
+}
+
+
