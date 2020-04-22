@@ -23,9 +23,9 @@ formData.addEventListener('submit', (event) => {
     let nameData = data.get('name');
     let emailData = data.get('email');
     if (!nameData) {
-        error.textContent = 'enter in a valid name'; 
+        error.textContent = 'Enter in a valid name!';
     } else if (!emailData) {
-        error.textContent = 'enter in a valid email';
+        error.textContent = 'Enter in a valid email!';
     } else {
         if (checkLocalStorage(emailData.toUpperCase())) {
             window.location = `./city-map/index.html?userId=${emailData.toUpperCase()}`;
@@ -51,4 +51,3 @@ formData.addEventListener('submit', (event) => {
     //creates usre 
         //userlist
           //
-    
