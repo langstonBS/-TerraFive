@@ -22,7 +22,7 @@ const pittockMansion = {
 const stJohns = {
     id: 'stJohns',
     name: 'St. John\'s',
-    image: '..assets/map/googleMap-images/forestPark_tight.JPG',
+    image: '../assets/map/googleMap-images/forestPark_tight.JPG',
     thumbnail: '../assets/forestPark.jpg',
     description: `
         This hike takes you through Forest Park, over the St. John's Bridge, through Cathedral Park, and down Lombard St for food and shopping.

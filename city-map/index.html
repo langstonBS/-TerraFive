@@ -11,32 +11,32 @@
 </head>
 
 <body>
-    <!-- background image? -->
-    <!-- I think we need a different map image to use that's depicting a larger city footprint -->
-    <header>
-        <section class="header-img" id="nav-header">
-            <img> <!-- portland neon sign image as banner in header -->
+
+    <header class="header-img">
+        <section id="nav-header">
             <nav id="nav">
-                <!-- do we want about me link on the bottom of the page instead? -->
             </nav>
+            <div class="app-title">City Hikes PDX</div>
         </section>
     </header>
+
     <main>
-        <div id="quad-map">
-            <img>
+        <!-- body has dynamically rendered links to each quadrant and its hikes -->
+        <div class="quad-map">
+            <img id="quad-map" src="../assets/map/Portland_map.png">
             <!--quadrant map image-->
         </div>
-        <!-- body has dynamically rendered links to each quadrant and its hikes -->
 
-        <body>
+        <div>
             <ul id="map-links">
-                <!-- Do we prefer abbreviated or spelled out quadrants? -->
-                <!-- do we need to add hard data first, then remove when our function to dynamically render the list is working? -->
             </ul>
-        </body>
+        </div>
+
     </main>
+
     <footer>
     </footer>
+
     <script type="module" src="city-map.js"></script>
 </body>
 
