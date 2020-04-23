@@ -13,7 +13,7 @@ const pittockMansion = {
     views: true,
     weirdness: 9,
     attractions: [{
-        name: 'Peculiarium',
+        name: 'Freakybuttrue Peculiarium',
         description: 'An oddities museum',
         address: '2234 NW Thurman'
     }]
@@ -25,7 +25,7 @@ const stJohns = {
     image: '..assets/map/googleMap-images/forestPark_tight.JPG',
     thumbnail: '../assets/forestPark.jpg',
     description: `
-        This hike takes you through forest, over the St. John's Bridge, through Cathedral Park, and down Lombard St for food and shopping.
+        This hike takes you through Forest Park, over the St. John's Bridge, through Cathedral Park, and down Lombard St for food and shopping.
         `,
     quadrant: 'Northwest',
     distance: 15.80,
@@ -33,9 +33,9 @@ const stJohns = {
     views: true,
     weirdness: 4,
     attractions: [{
-        name: '',
-        description: '',
-        address: ''
+        name: 'Cathedral Park',
+        description: 'Site of many festivals, concerts, and community events.',
+        address: 'N Edison St and Pittsburg Ave'
     }]
 };
 
@@ -45,7 +45,7 @@ const washingtonPark = {
     image: '../assets/map/googleMap-images/washingtonPark_tight.JPG',
     thumbnail: '../assets/WashingtonParkArboretum.jpg',
     description: `
-        This hike takes you through Washington Park's Japanese and Rose Gardens, and either up 23rd or down Burnside to the Pearl district for food and shopping.
+        This hike takes you through Washington Park's Japanese and Rose Gardens, and down Burnside to the Pearl district for food and shopping.
         `,
     quadrant: 'Northwest',
     distance: 8.10,
@@ -61,7 +61,7 @@ const washingtonPark = {
         {
             name: 'Powells Books',
             description: 'The world\'s largest independent bookstore.',
-            address: '1005 W. Burnside St'
+            address: '1005 W Burnside St'
         },
         {
             name: 'Portland Art Museum',
@@ -100,7 +100,7 @@ const alberta = {
         This hike takes you through Alberta Park, down Alberta St for shopping, and over to the Kennedy School for food and drinks.
         `,
     quadrant: 'Northeast',
-    distance: 1.00,
+    distance: 3.30,
     season: 'all',
     views: false,
     weirdness: 7,
@@ -124,10 +124,10 @@ const laurelhurst = {
     image: '../assets/map/googleMap-images/laurelhurstPark_tight.JPG',
     thumbnail: '../assets/laurelhurstPark.jpg',
     description: `
-        This hike takes you through Alberta Park, down Alberta St for shopping and over to the Kennedy School for food and drinks.
+        This hike takes you through Laurelhurst Park, over to Lone Fir Cemetary for some curious headstone viewing, and down Belmont St for food and drinks.
         `,
-    quadrant: 'Northeast',
-    distance: 1.20,
+    quadrant: 'Southeast',
+    distance: 3.20,
     season: 'all',
     views: false,
     weirdness: 6,
@@ -154,7 +154,7 @@ const roseCityPark = {
         This hike takes you through Rose City Park and over to Portland's Hollywood neighborhood for food and shopping.
         `,
     quadrant: 'Northeast',
-    distance: 1.40,
+    distance: 4.20,
     season: 'all',
     views: false,
     weirdness: 4,
@@ -173,17 +173,17 @@ const peninsulaPark = {
     image: '../assets/map/googleMap-images/peninsulaPark_tight.JPG',
     thumbnail: '../assets/peninsulaPark.jpg',
     description: `
-        This hike takes you through Peninsula Park, down Mississippi Ave for shopping and food, and over to the Alibi Room for karaoke.
+        This hike takes you through Peninsula Park, down Mississippi Ave for shopping and food, and over to the Alibi for karaoke.
         `,
     quadrant: 'Northeast',
-    distance: 1,
+    distance: 4.30,
     season: 'all',
     views: false,
     weirdness: 5,
     attractions: [
         {
-            name: 'Alibi Room',
-            description: 'A tiki bar with the city\'s best karaoke.',
+            name: 'Alibi Tiki Lounge',
+            description: 'Restaurant and bar, with island-themed murals, housing the city\'s best karaoke.',
             address: '4024 N Interstate Ave'
         }
     ]
@@ -195,10 +195,10 @@ const kentonPark = {
     image: '../assets/map/googleMap-images/kentonPark_tight.JPG',
     thumbnail: '../assets/kentonPark.jpg',
     description: `
-        This hike takes you through Peninsula Park, down Mississippi Ave for shopping and food, and over to the Alibi Room for karaoke.
+        This hike takes you through Kenton Park, loops through N Brandon and Denver Aves, and over to the Kenton Club for some serious dive bar shenanigans.
         `,
     quadrant: 'Northeast',
-    distance: 1,
+    distance: 1.40,
     season: 'all',
     views: false,
     weirdness: 3,
@@ -220,7 +220,7 @@ const tryonCreek = {
         Tryon Creek State Nature Area, home to more than 50 species of birds and mammals, includes hiking and horse trails as well as a bike path.
         `,
     quadrant: 'Southwest',
-    distance: 8.00,
+    distance: 4.80,
     season: 'all',
     views: false,
     weirdness: 2,
@@ -228,17 +228,17 @@ const tryonCreek = {
         {
             name: 'Lewis and Clark College',
             description: 'Beautiful campus with city views.',
-            address: '',
+            address: '0615 SW Palatine Hill Rd',
         },
         {
-            name: 'Fire Art Glass',
-            description: '',
-            address: '',
+            name: 'Fireart Glass',
+            description: 'Fine art glass-crafting studio.',
+            address: '9436 SW Terwilliger Blvd',
         },
         {
-            name: 'Nola Doughnuts',
-            description: '',
-            address: '',
+            name: 'NOLA Doughnuts',
+            description: 'New Orleans-inspired pastry creations',
+            address: '365 N State St, Lake Oswego',
         }
     ]
 };
@@ -249,10 +249,10 @@ const marquamNaturePark = {
     image: '../assets/map/googleMap-images/marquamPark_tight.JPG',
     thumbnail: '../assets/marquamNaturePark.jpg',
     description: `
-        Marquam Nature Park is the "Trail" segment of 40-Mile Loop "4T" system which connects other natural areas throughout the metropolital area.
+        Marquam Nature Park is the "Trail" segment of the 40-Mile Loop "4T" system which connects other natural areas throughout the metropolital area.
         `,
     quadrant: 'Southwest',
-    distance: 7.00,
+    distance: 4.40,
     season: 'all',
     views: true,
     weirdness: 2,
@@ -260,16 +260,16 @@ const marquamNaturePark = {
         {
             name: 'Portland Aerial Tram',
             description: 'Sweeping city views.',
-            address: '',
+            address: '3303 SW Bond Ave',
         },
         {
             name: 'Willamette River',
-            description: '',
+            description: 'The aquatic division between the west and east sides of Portland.',
             address: '',
         },
         {
             name: 'Tilikum Crossing',
-            description: '',
+            description: 'Cable-stayed bridge spanning the Willamette River.',
             address: '',
         }
     ]
@@ -284,7 +284,7 @@ const gabrielPark = {
         Gabriel Park is a wooded public area featuring sports fields and courts, as well as an indoor athletic facility, located between several adjacent residential neighborhoods.
         `,
     quadrant: 'Southwest',
-    distance: 1.50,
+    distance: 2.10,
     season: 'all',
     views: false,
     weirdness: 2,
@@ -292,12 +292,17 @@ const gabrielPark = {
         {
             name: 'Gabriel Dog Park',
             description: 'Big ole dog park.',
-            address: '',
+            address: '4115 SW Canby St',
+        },
+        {
+            name: 'Multnomah Village',
+            description: 'Pedestrian-friendly hamlet of shops',
+            address: '7837 SW Capitol Hwy',
         },
         {
             name: 'Sasquatch Brewing',
             description: 'Beer.',
-            address: '',
+            address: '6440 SW Capitol Hwy',
         },
     ]
 };
@@ -308,10 +313,10 @@ const laddsAddition = {
     image: '../assets/map/googleMap-images/laddsAddition_tight.JPG',
     thumbnail: '../assets/laddsAddition.jpg',
     description:
-        `Ladd's Addition is one of the oldest planned residential developments in the western United States, and features a curiously walkable diagonal street pattern which surrounds four diamond- shaped rose test gardens.
+        `Ladd's Addition is one of the oldest planned residential developments in the western United States, and features a curiously walkable diagonal street pattern which surrounds four diamond-shaped rose test gardens.
         `,
     quadrant: 'Southeast',
-    distance: 1.50,
+    distance: 5.80,
     season: 'all',
     views: false,
     weirdness: 4,
@@ -319,17 +324,17 @@ const laddsAddition = {
         {
             name: 'OMSI',
             description: 'Big ole science museum.',
-            address: '',
+            address: '1945 SE Water Ave',
         },
         {
             name: 'Eastbank Esplanade',
             description: 'River walkin\'.',
-            address: '',
+            address: 'SE Salmon St',
         },
         {
             name: 'Kidds Toy Museum',
             description: 'TOYS.',
-            address: '',
+            address: '1301 SE Grand Ave',
         }
     ]
 };
@@ -340,10 +345,10 @@ const mountTabor = {
     image: '../assets/map/googleMap-images/mountTabor_tight.JPG',
     thumbnail: '../assets/mountTabor.jpg',
     description: `
-    Mount Tabor is an extinct volcanic butte with four reservoirs along its slopes and features numerous paths around the perimeter with a wonderful view of the city.
+    Mount Tabor is an extinct cinder cone volcano with four reservoirs along its slopes and features numerous paths around the perimeter with a wonderful view of the city.
     `,
     quadrant: 'Southeast',
-    distance: 3.00,
+    distance: 6.80,
     season: 'all',
     views: true,
     weirdness: 6,
@@ -356,12 +361,12 @@ const mountTabor = {
         {
             name: 'Movie Madness',
             description: 'Movie artifacts.',
-            address: '',
+            address: '4320 SE Belmont St',
         },
         {
             name: 'Zymoglyphic Museum',
             description: 'Strange art.',
-            address: '',
+            address: '6225 SE Alder St',
         }
     ]
 };
@@ -372,10 +377,10 @@ const crystalSprings = {
     image: '../assets/map/googleMap-images/westmorelandPark_tight.JPGba',
     thumbnail: '../assets/CrystalSpringsRhododendronGardenPortland.jpg',
     description: `
-    Walk through the rhodeodendrum garden and check out shops and food in Woodstock.
+    Walk through the Crystal Springs Rhododendron Garden and check out shops and food along Woodstock.
     `,
     quadrant: 'Southeast',
-    distance: 2.00,
+    distance: 6.20,
     season: 'all',
     views: false,
     weirdness: 5,
@@ -383,7 +388,7 @@ const crystalSprings = {
         {
             name: 'Woodstock Mystery Hole',
             description: 'Strange hole, explore if you dare.',
-            address: '',
+            address: '4326 SE Woodstock Blvd',
         }
     ]
 };
@@ -397,20 +402,20 @@ const oaksBottom = {
     This hike takes you through the wildlife refuge, past the amusement park, and down 13th for shopping and food.
     `,
     quadrant: 'Southeast',
-    distance: 3.00,
+    distance: 5.30,
     season: 'all',
     views: true,
     weirdness: 5,
     attractions: [
         {
-            name: 'Puppet Museum',
+            name: 'Portland Puppet Museum',
             description: 'Strange home of creepy puppets.',
-            address: '',
+            address: '906 SE Umatilla St',
         },
         {
             name: 'Oaks Amusement Park',
             description: 'Circus fun!',
-            address: '',
+            address: '7805 SE Oaks Park Way',
         }
     ]
 };
