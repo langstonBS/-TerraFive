@@ -21,8 +21,8 @@ body {
     display: flex;
     align-items: center;
     padding-bottom: 50px;
-    padding-top: 60px;
-    word-spacing: 8px
+    padding-top: 80px;
+    word-spacing: 8px;
 }
 
 #log-in {
@@ -40,6 +40,7 @@ body {
     box-shadow:  5px 5px 5px 5px rgba(41, 40, 40, 0.568);
     padding-right: 50px;
     padding-left: 50px;
+    margin-top: 30px;
 }
 
 label[for^=name] {

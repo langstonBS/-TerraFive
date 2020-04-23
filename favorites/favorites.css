@@ -36,7 +36,8 @@ a:hover {
     display: flex;
     align-items: center;
     display: inline-block;
-    padding-top: 30px;
+    padding-top: 40px;
+    word-spacing: 8px;
 }
 
 p {

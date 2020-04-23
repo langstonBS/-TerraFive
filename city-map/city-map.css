@@ -15,6 +15,7 @@ main {
     border-radius: 10px;
     text-align: center;
     box-shadow:  20px 20px 30px 10px rgba(59, 59, 59, 0.767);
+    word-spacing: 8px;
 }
 
 a {
@@ -38,7 +39,7 @@ a:hover {
     display: flex;
     align-items: center;
     display: inline-block;
-    padding-top: 30px;
+    padding-top: 50px;
 }
 
 #quad-map {
