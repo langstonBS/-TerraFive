@@ -1,6 +1,12 @@
+/* padding under p tag disappears when hitting the back button in the browser */
+
 body {
     margin: 40px;
     background-image: url("../assets/city-image/pink-brick.jpeg");
+}
+
+main {
+    margin-left: 100px;
 }
 
 .header-img {
@@ -33,10 +39,11 @@ a:hover {
     padding-top: 30px;
 }
 
-h2 {
+p {
     font-family: 'Raleway', sans-serif;
     font-size: 40px;
     padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 form {
@@ -60,4 +67,11 @@ form {
     box-shadow:  10px 10px 20px 5px rgb(59, 59, 59);
 }
 
-/* want to use display: none to hide the placeholder icon because it takes up space,  */
+.specific-hike {
+    padding-bottom: 40px;
+    padding-right: 40px;
+}
+
+#hike-name {
+    float: right;
+}

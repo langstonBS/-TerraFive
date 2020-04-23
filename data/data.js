@@ -1,9 +1,9 @@
 
 const pittockMansion = {
     id: 'pittockMansion',
-    name: 'Pittock Mansion',
+    name: 'Pittock Mansion & the Witch\'s Castle',
     image: '../assets/map/googleMap-images/pittockMansion_tight.JPG',
-    thumbnail: '../assets/pittockMansion.jpg',
+    thumbnail: '../assets/witch-castle.jpg',
     description: `
         This hike takes you from Pittock Mansion's sweeping views, through the woods to the Witch's Castle, and down 23rd for food and shooping.
         `,
