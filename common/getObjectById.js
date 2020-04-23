@@ -1,4 +1,5 @@
-
+//gets the userId value from HTML url serch
+//returns the localstorage item as an object
 
 
 export default function getObjectById() {

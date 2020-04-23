@@ -3,18 +3,18 @@ import findById from '../common/findById.js';
 import renderAttraction from './renderAttractions.js';
 import getAndSendToUser from '../common/exportUserIdToWindo.js';
 import addLocalStorage from '../common/addLocalStorage.js';
+import getObjectById from '../common/getObjectById.js';
 
 // Grab the parameters from the URL
 const serchId = new URLSearchParams(window.location.search);
-// const f = document.getElementById('nav');
 
-// let n = getAndSendToUser(serchId);
-
-// f.appendChild(n);
 getAndSendToUser();
+
+
 
 // Find the hike id
 const hikeId = serchId.get('hikeId');
+
 
 //Find the hike by id
 const hike = findById(hikeId, hikes);
@@ -41,15 +41,25 @@ hike.attractions.forEach(attraction => {
     attractionsDest.append(element);
 });
 
-const favorites = [];
+
+let user = getObjectById();
+console.log(user);
+//const favorites = [];
+let userObject = JSON.parse(user);
+let favoritObject = userObject.favorites;
 let checkbox = document.querySelector('input[name=favorite]');
 
-checkbox.addEventListener('change', function () {
+
+checkbox.addEventListener('change', function() {
     if (checkbox.checked) {
-        const favHike = findById(hike.id, favorites);
-        if (!favHike) {
-            favorites.push(hike);
-        }
-        addLocalStorage('favorites', favorites);
+        const key = hike.id;
+       // const favHike = findById(hike.id, userObject.favorites);
+       // if (!favHike) {
+        favoritObject[key] = hike;    
+       // }
+        console.log(userObject.favorites);
+        addLocalStorage(userObject.id, userObject);
     }
 });
+
+

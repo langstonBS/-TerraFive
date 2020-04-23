@@ -39,3 +39,19 @@ p {
     font-size: 40px;
     padding-top: 60px;
 }
+#quadrant-hikes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#quadrant-hikes >* {
+    flex: 1 0 46%;
+}
+
+.icon {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 200px;
+    box-shadow:  10px 10px 20px 5px rgb(59, 59, 59);
+}
