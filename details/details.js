@@ -6,11 +6,12 @@ import addLocalStorage from '../common/addLocalStorage.js';
 
 // Grab the parameters from the URL
 const serchId = new URLSearchParams(window.location.search);
-const f = document.getElementById('nav');
+// const f = document.getElementById('nav');
 
-let n = getAndSendToUser(serchId);
+// let n = getAndSendToUser(serchId);
 
-f.appendChild(n);
+// f.appendChild(n);
+getAndSendToUser();
 
 // Find the hike id
 const hikeId = serchId.get('hikeId');
@@ -43,11 +44,11 @@ hike.attractions.forEach(attraction => {
 const favorites = [];
 let checkbox = document.querySelector('input[name=favorite]');
 
-checkbox.addEventListener('change', function() {
+checkbox.addEventListener('change', function () {
     if (checkbox.checked) {
         const favHike = findById(hike.id, favorites);
         if (!favHike) {
-            favorites.push(hike);    
+            favorites.push(hike);
         }
         addLocalStorage('favorites', favorites);
     }
