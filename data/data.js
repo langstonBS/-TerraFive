@@ -2,10 +2,10 @@
 const pittockMansion = {
     id: 'pittockMansion',
     name: 'Pittock Mansion',
-    image: '../assets/map/googleMap-images/pittock-mansion.png',
+    image: '../assets/map/googleMap-images/pittockMansion_tight.JPG',
     thumbnail: '../assets/pittockMansion.jpg',
     description: `
-        This hike takes you from Pittock Mansion's sweeping views through the woods to the witch's castle and down 23rd for food and shooping.
+        This hike takes you from Pittock Mansion's sweeping views, through the woods to the Witch's Castle, and down 23rd for food and shooping.
         `,
     quadrant: 'Northwest',
     distance: 5.70,
@@ -22,13 +22,13 @@ const pittockMansion = {
 const stJohns = {
     id: 'stJohns',
     name: 'St. John\'s',
-    image: '../assets',
-    thumbnail: '../assets',
+    image: '..assets/map/googleMap-images/forestPark_tight.JPG',
+    thumbnail: '../assets/forestPark.jpg',
     description: `
-        This hike takes you through forest, over the St. John's bridge, through Cathedral Park, and down Lombard St. for food and shopping.
+        This hike takes you through forest, over the St. John's Bridge, through Cathedral Park, and down Lombard St for food and shopping.
         `,
     quadrant: 'Northwest',
-    distance: 8.08,
+    distance: 15.80,
     season: 'all',
     views: true,
     weirdness: 4,
@@ -43,12 +43,12 @@ const washingtonPark = {
     id: 'WashingtonPark',
     name: 'Washington Park',
     image: '../assets/map/googleMap-images/washingtonPark_tight.JPG',
-    thumbnail: 'assets/WashingtonParkArboretum.jpg',
+    thumbnail: '../assets/WashingtonParkArboretum.jpg',
     description: `
-        This hike takes you Washington Park's Japanese and Rose Gardens, and either up 23rd or down Burnside to the Pearl district for food and shopping.
+        This hike takes you through Washington Park's Japanese and Rose Gardens, and either up 23rd or down Burnside to the Pearl district for food and shopping.
         `,
     quadrant: 'Northwest',
-    distance: 3.90,
+    distance: 8.10,
     season: 'all',
     views: true,
     weirdness: 10,
@@ -97,7 +97,7 @@ const alberta = {
     image: '../assets/map/googleMap-images/albertaPark_tight.JPG',
     thumbnail: '../assets/albertaPark.jpg',
     description: `
-        This hike takes you through Alberta Park, down Alberta St for shopping and over to the Kennedy School for food and drinks.
+        This hike takes you through Alberta Park, down Alberta St for shopping, and over to the Kennedy School for food and drinks.
         `,
     quadrant: 'Northeast',
     distance: 1.00,
@@ -112,8 +112,8 @@ const alberta = {
         },
         {
             name: 'Alberta Art Walk',
-            description: 'Last Thursday art walk down Alberta St.',
-            address: '2738 NE Alberta St.'
+            description: 'Last Thursday art walk down Alberta St',
+            address: '2738 NE Alberta St'
         }
     ]
 };
@@ -215,7 +215,7 @@ const tryonCreek = {
     id: 'tryonCreek',
     name: 'Tryon Creek',
     image: '../assets/map/googleMap-images/tryonCreek_tight.JPG',
-    thumbnail: '../assets/map/googleMap-images/tryonCreek_tight.JPG',
+    thumbnail: '../assets/tryonCreek.jpg',
     description: `
         Tryon Creek State Nature Area, home to more than 50 species of birds and mammals, includes hiking and horse trails as well as a bike path.
         `,
