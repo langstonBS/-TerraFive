@@ -20,14 +20,43 @@ body {
     text-shadow: 5px 7px black;
     display: flex;
     align-items: center;
+    padding-bottom: 50px;
+    padding-top: 60px;
+    word-spacing: 8px
 }
 
 #log-in {
     background-color: rgba(168, 156, 167, 0.404);
     color: black;
+    -webkit-text-fill-color: rgb(194, 12, 12); /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    color: rgb(97, 8, 8);
     border-radius: 10px;
     padding: 25px;
-    font-family: 'Anton', sans-serif;
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+    border: 1.5px solid black;
+    box-shadow:  5px 5px 5px 5px rgba(41, 40, 40, 0.568);
+    padding-right: 50px;
+    padding-left: 50px;
 }
 
+label[for^=name] {
+    color: black;
+}
 
+input {
+   -webkit-box-shadow:0 0 5px #666 inset;
+   -moz-box-shadow:0 0 5px #666 inset;
+   box-shadow:0 0 5px #666 inset;
+}
+
+button {
+    box-shadow: 0 1px 2px rgb(70, 63, 63),0 -1px 1px #666,
+    inset 0 -1px 1px rgba(0,0,0,0.5),
+    inset 0 1px 1px rgba(92, 89, 89, 0.8);
+    border-radius: 5px;
+    padding: 4px;
+    
+}

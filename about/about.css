@@ -4,11 +4,15 @@ body {
 }
 
 h1 {
-    color: rgb(238, 236, 128);
+    color: rgb(211, 195, 106);
     font-family: 'Lobster', cursive;
+    padding-left: 50px;
     font-size: 70px;
     text-shadow: 5px 7px black;
-    display: flex;
+    
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 30px;
     align-items: center;
 }
 
@@ -23,4 +27,70 @@ a:hover {
 
 #devs {
    display: inline-flex;
+}
+
+.langston {
+    margin-left: 30px;
+    margin-right: 30;
+    border: 1.5px solid black;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow:  5px 5px 5px 5px rgba(41, 40, 40, 0.568);
+    background-color: rgba(230, 230, 250, 0.671);
+}
+
+.nikki {
+    margin-left: 30px;
+    margin-right: 30;
+    border: 1.5px solid black;
+    padding: 40px;
+    padding-top: 80px;
+    border-radius: 5px;
+    box-shadow:  5px 5px 5px 5px rgba(41, 40, 40, 0.568);
+    background-color: rgba(230, 230, 250, 0.671);
+}
+
+.alan {
+    margin-left: 30px;
+    margin-right: 30;
+    border: 1.5px solid black;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow:  5px 5px 5px 5px rgba(41, 40, 40, 0.568);
+    background-color: rgba(230, 230, 250, 0.671);
+}
+
+.rachel {
+    margin-left: 30px;
+    margin-right: 30;
+    border: 1.5px solid black;
+    padding: 40px;
+    padding-top: 80px;
+    border-radius: 5px;
+    box-shadow:  5px 5px 5px 0px rgba(41, 40, 40, 0.568);
+    text-align: center;
+    background-color: rgba(230, 230, 250, 0.671);
+}
+
+#rachel {
+    border-radius: 200px;
+    height: 100px;
+    
+    border: 1px solid black;
+    box-shadow:  5px 5px 10px 5px rgb(59, 59, 59);
+}
+
+.rachel, h2 {
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.karl {
+    margin-left: 30px;
+    margin-right: 30;
+    border: 1.5px solid black;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow:  5px 5px 5px 5px rgba(41, 40, 40, 0.568);
+    background-color: rgba(230, 230, 250, 0.671);
 }
