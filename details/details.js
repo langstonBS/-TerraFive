@@ -48,7 +48,7 @@ hike.attractions.forEach(attraction => {
 });
 
 const favorites = [];
-var checkbox = document.querySelector('input[name=favorite]');
+let checkbox = document.querySelector('input[name=favorite]');
 
 checkbox.addEventListener('change', function() {
     if (checkbox.checked) {
@@ -57,11 +57,5 @@ checkbox.addEventListener('change', function() {
             favorites.push(hike);    
         }
         addLocalStorage('favorites', favorites);
-        console.log('Is checked');
-        
-        console.log(favorites);
-    } else 
-    {
-        console.log('Not checked ');
     }
 });
