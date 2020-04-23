@@ -1,0 +1,26 @@
+body {
+    margin: 40px;
+    background-image: url("../assets/city-image/portland-old-town.jpg");
+}
+
+h1 {
+    color: rgb(205, 212, 139);
+    font-family: 'Lobster', cursive;
+    font-size: 70px;
+    text-shadow: 5px 7px black;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    color: rgb(253, 249, 249);
+    padding: 50px;
+}
+
+a:hover {
+    font-size: x-large;
+}
+
+#devs {
+   display: inline-flex;
+}
