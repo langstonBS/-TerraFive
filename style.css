@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-image: url("./assets/old-town-day.jpeg");
     background-repeat: no-repeat;
@@ -11,10 +17,11 @@ body {
     color: rgb(241, 233, 233);
     font-family: 'Lobster', cursive;
     font-size: 70px;
-    text-shadow: 7px 10px black;
+    text-shadow: 5px 7px black;
     display: flex;
     align-items: center;
 }
+
 #log-in {
     background-color: rgba(168, 156, 167, 0.404);
     color: black;
