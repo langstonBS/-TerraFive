@@ -1,15 +1,28 @@
 import hikes from '../data/data.js';
 import findByQuadrant from '../common/findByQuadrant.js';
 import renderSpecificHike from './renderSpecificHike.js';
+import getAndSendToUser from '../common/exportUserIdToWindo.js';
+
 
 const serchId = new URLSearchParams(window.location.search);
+getAndSendToUser();
+
+
+
+
 
 const keyID = serchId.get('userId');
+const mapId = serchId.get('mapQuadId');
 const localVar = localStorage.getItem(keyID);
 
+<<<<<<< HEAD
 // console.log(localVar);
+=======
+console.log(localVar);
+console.log(mapId);
+>>>>>>> 135c7e88400e7d09d4b3076f9c7a753e18048711
 
-const quadrant = 'Northeast';
+const quadrant = mapId;
 
 const name = document.getElementById('quadrant');
 
