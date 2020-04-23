@@ -43,7 +43,6 @@ hike.attractions.forEach(attraction => {
 
 
 let user = getObjectById();
-console.log(user);
 //const favorites = [];
 let userObject = JSON.parse(user);
 let favoritObject = userObject.favorites;
@@ -57,7 +56,6 @@ checkbox.addEventListener('change', function() {
        // if (!favHike) {
         favoritObject[key] = hike;    
        // }
-        console.log(userObject.favorites);
         addLocalStorage(userObject.id, userObject);
     }
 });
