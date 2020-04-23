@@ -1,8 +1,15 @@
 import hikes from '../data/data.js';
 import findByQuadrant from '../common/findByQuadrant.js';
 import renderSpecificHike from './renderSpecificHike.js';
+import getAndSendToUser from '../common/exportUserIdToWindo.js';
+
 
 const serchId = new URLSearchParams(window.location.search);
+getAndSendToUser();
+
+
+
+
 
 const keyID = serchId.get('userId');
 const localVar = localStorage.getItem(keyID);

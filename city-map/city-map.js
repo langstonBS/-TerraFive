@@ -1,8 +1,7 @@
+import getAndSendToUser from '../common/exportUserIdToWindo.js';
 
-const serchId = new URLSearchParams(window.location.search);
+getAndSendToUser();
 
-const keyID = serchId.get('userId');
-console.log(keyID);
-const localVar = localStorage.getItem(keyID);
 
-console.log(localVar);
+
+
