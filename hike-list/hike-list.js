@@ -12,9 +12,11 @@ getAndSendToUser();
 
 
 const keyID = serchId.get('userId');
+const mapId = serchId.get('mapQuadId');
 const localVar = localStorage.getItem(keyID);
 
 console.log(localVar);
+console.log(mapId);
 
 const quadrant = 'Northeast';
 

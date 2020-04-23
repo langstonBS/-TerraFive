@@ -1,5 +1,6 @@
 //gets url userId and sends it over w
- 
+
+
 const a = document.createElement('a');
 const b = document.createElement('a');
 const c = document.createElement('a');
@@ -13,6 +14,7 @@ const ul = document.createElement('ul');
 
 
 export default function getAndSendToUser() {
+
 
     a.href = `../city-map/index.html?userId=${keyID}`;
     a.textContent = 'City Map';
