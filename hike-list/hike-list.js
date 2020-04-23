@@ -18,7 +18,7 @@ const localVar = localStorage.getItem(keyID);
 console.log(localVar);
 console.log(mapId);
 
-const quadrant = 'Northeast';
+const quadrant = mapId;
 
 const name = document.getElementById('quadrant');
 
