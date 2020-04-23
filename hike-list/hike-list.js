@@ -15,12 +15,8 @@ const keyID = serchId.get('userId');
 const mapId = serchId.get('mapQuadId');
 const localVar = localStorage.getItem(keyID);
 
-<<<<<<< HEAD
-// console.log(localVar);
-=======
 console.log(localVar);
 console.log(mapId);
->>>>>>> 135c7e88400e7d09d4b3076f9c7a753e18048711
 
 const quadrant = mapId;
 
