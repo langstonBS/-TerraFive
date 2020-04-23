@@ -374,7 +374,7 @@ const mountTabor = {
 const crystalSprings = {
     id: 'crystalSprings',
     name: 'Crystal Springs',
-    image: '../assets/map/googleMap-images/westmorelandPark_tight.JPGba',
+    image: '../assets/map/googleMap-images/westmorelandPark_tight.jpg',
     thumbnail: '../assets/CrystalSpringsRhododendronGardenPortland.jpg',
     description: `
     Walk through the Crystal Springs Rhododendron Garden and check out shops and food along Woodstock.
