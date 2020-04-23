@@ -1,9 +1,9 @@
-import removeFromLocal from '../common/removeFromLocal.js';
-import addLocalStorage from '../common/addLocalStorage.js';
+// import removeFromLocal from '../common/removeFromLocal.js';
+// import addLocalStorage from '../common/addLocalStorage.js';
 
-const test = QUnit.test;
+// const test = QUnit.test;
 
-QUnit.module('Local Storage');
+// QUnit.module('Local Storage');
 
 // test('Test removing an object from an array', function(assert) {
 //     //Arrange
