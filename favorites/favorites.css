@@ -1,8 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     margin: 40px;
     background-image: url("../assets/city-image/pink-brick.jpeg");
 }
-/* problems getting banner to stretch accross browser window */
 
 .header-img {
     width: 100%;
@@ -38,7 +43,9 @@ p {
     font-family: 'Raleway', sans-serif;
     font-size: 40px;
     padding-top: 60px;
+    padding-bottom: 60px;
 }
+
 #quadrant-hikes {
     display: flex;
     flex-wrap: wrap;
@@ -54,4 +61,8 @@ p {
     object-fit: cover;
     border-radius: 200px;
     box-shadow:  10px 10px 20px 5px rgb(59, 59, 59);
+}
+
+#attractions {
+    padding-bottom: 60px;
 }

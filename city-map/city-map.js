@@ -20,14 +20,14 @@ function mapdata() {
 
 
     a.href = `../hike-list/index.html?userId=${keyID}&mapQuadId=Northwest`;
-    a.textContent = 'NorthWast';
+    a.textContent = 'Northwest';
     b.href = `../hike-list/index.html?userId=${keyID}&mapQuadId=Northeast`;
-    b.textContent = 'NorthEast';
+    b.textContent = 'Northeast';
     c.href = `../hike-list/index.html?userId=${keyID}&mapQuadId=Southwest`;
     c.textContent = 'Southwest';
     d.href = `../hike-list/index.html?userId=${keyID}&mapQuadId=Southeast`;
     d.textContent = 'Southeast';
-    
+
     checkAndApend(a);
     checkAndApend(b);
     checkAndApend(c);
