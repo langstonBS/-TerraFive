@@ -15,7 +15,7 @@ const ul = document.createElement('ul');
 export default function getAndSendToUser() {
 
     a.href = `../city-map/index.html?userId=${keyID}`;
-    a.textContent = 'city Map';
+    a.textContent = 'City Map';
     b.href = `../hike-list/index.html?userId=${keyID}`;
     b.textContent = 'List of Hikes';
     c.href = `../favorites/index.html?userId=${keyID}`;
