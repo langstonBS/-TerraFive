@@ -1,5 +1,6 @@
 import getAndSendToUser from '../common/exportUserIdToWindo.js';
 
+getAndSendToUser();
 const list = localStorage.getItem('FAVORITES');
 
 const stringList = JSON.parse(list);
@@ -15,5 +16,5 @@ for (let i = 0; i < stringList.length; i++) {
 }
 
 
-getAndSendToUser();
+
 

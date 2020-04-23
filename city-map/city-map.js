@@ -13,6 +13,7 @@ const serchId = new URLSearchParams(window.location.search);
 const keyID = serchId.get('userId');
 const getUl = document.getElementById('map-links');
 
+
 mapdata();
 
 function mapdata() {
