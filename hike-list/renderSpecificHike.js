@@ -1,7 +1,4 @@
-//Function that could be used to render a hike in the hike-list
-//Could be paired with the findByQuadrant function in the hike-list.js file to only render hikes for a matching quadrant
-//Needs to call the url params function to create a link that includes userID and hikeID for the Hike Details page
-export default function renderSpecificHike(hike) {
+export default function renderSpecificHike(hike, userId, quadId) {
 
     const label = document.createElement('label');
     label.classList.add('specific-hike');
@@ -10,13 +7,20 @@ export default function renderSpecificHike(hike) {
     image.classList.add('icon');
     image.src = hike.thumbnail;
 
-    //Needs to create link to include url params to be passed to Hike Details page
-
     const input = document.createElement('input');
     input.type = 'radio';
     input.name = 'hike-link';
 
-    label.append(image, input);
+    const h3 = document.createElement('h3');
+    const span = document.createElement('span');
+    span.textContent = hike.name;
+    span.id = 'hike-name';
+    h3.append(span);
+
+    label.append(image, input, h3);
+    label.addEventListener('click', () => {
+        window.location = `../details/index.html?userId=${userId}&mapQuadId=${quadId}&hikeId=${hike.id}`;
+    });
 
     return label;
 }
