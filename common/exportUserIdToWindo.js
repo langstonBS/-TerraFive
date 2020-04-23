@@ -1,19 +1,21 @@
-//gets url userId and sends it over w
+//creates HTML navagation serch
 
 
 const a = document.createElement('a');
 const b = document.createElement('a');
 const c = document.createElement('a');
 const d = document.createElement('a');
+
 let navConpare = window.location.pathname;
 const serchId = new URLSearchParams(window.location.search);
+
 const keyID = serchId.get('userId');
 const f = document.getElementById('nav');
 const ul = document.createElement('ul');
 const mapId = serchId.get('mapQuadId');
 
 
-
+//keeps the keyID pairs 
 export default function getAndSendToUser() {
 
 
@@ -35,6 +37,7 @@ export default function getAndSendToUser() {
 
 }
 
+//comars url and dose not display curent page
 function checkAndApend(navURL) {
     const li = document.createElement('li');
     if (navURL.pathname !== navConpare) {
