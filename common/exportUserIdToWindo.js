@@ -10,19 +10,20 @@ const serchId = new URLSearchParams(window.location.search);
 const keyID = serchId.get('userId');
 const f = document.getElementById('nav');
 const ul = document.createElement('ul');
+const mapId = serchId.get('mapQuadId');
 
 
 
 export default function getAndSendToUser() {
 
 
-    a.href = `../city-map/index.html?userId=${keyID}`;
+    a.href = `../city-map/index.html?userId=${keyID}&mapQuadId=${mapId}`;
     a.textContent = 'City Map';
-    b.href = `../hike-list/index.html?userId=${keyID}`;
+    b.href = `../hike-list/index.html?userId=${keyID}&mapQuadId=${mapId}`;
     b.textContent = 'List of Hikes';
-    c.href = `../favorites/index.html?userId=${keyID}`;
+    c.href = `../favorites/index.html?userId=${keyID}&mapQuadId=${mapId}`;
     c.textContent = 'Favorites';
-    d.href = `../about/index.html?userId=${keyID}`;
+    d.href = `../about/index.html?userId=${keyID}&mapQuadId=${mapId}`;
     d.textContent = 'About Us';
     
     checkAndApend(a);
