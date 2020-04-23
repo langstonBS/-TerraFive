@@ -1,7 +1,16 @@
 import hikes from '../data/data.js';
 import findById from '../common/findById.js';
 import renderAttraction from './renderAttractions.js';
-import addLocalStorage from '../common/addLocalStorage.js';
+import getAndSendToUser from '../common/exportUserIdToWindo.js';
+
+
+const serchId = new URLSearchParams(window.location.search);
+const f = document.getElementById('nav');
+
+let n = getAndSendToUser(serchId);
+
+f.appendChild(n);
+
 
 //OPEN:
 // Needs an eventListener for the favorites button
