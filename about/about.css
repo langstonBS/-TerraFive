@@ -46,8 +46,21 @@ a:hover {
     padding: 40px;
     padding-top: 80px;
     border-radius: 5px;
-    box-shadow:  5px 5px 5px 5px rgba(41, 40, 40, 0.568);
+    box-shadow:  5px 5px 5px 0px rgba(41, 40, 40, 0.568);
+    text-align: center;
     background-color: rgba(230, 230, 250, 0.671);
+}
+
+#nikki {
+    border-radius: 200px;
+    height: 80px;
+    border: 1px solid black;
+    box-shadow:  5px 5px 10px 5px rgb(59, 59, 59);
+}
+
+.nikki, h2 {
+    padding-top: 15px;
+    padding-bottom: 10px;
 }
 
 .alan {
@@ -75,7 +88,6 @@ a:hover {
 #rachel {
     border-radius: 200px;
     height: 100px;
-    
     border: 1px solid black;
     box-shadow:  5px 5px 10px 5px rgb(59, 59, 59);
 }
