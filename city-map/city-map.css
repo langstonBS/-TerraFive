@@ -1,7 +1,7 @@
 body {
-    back
+    background-color: rgb(116, 46, 46);
     margin: 40px;
-    background-image: url("../assets/city-image/purple-brick.jpeg");
+    background-image: url("../assets/city-image/brick.jpeg");
 }
 
 main {
