@@ -20,7 +20,7 @@ main {
 }
 
 a {
-    color: rgb(216, 211, 211);
+    color: rgb(14, 13, 13);
     padding: 50px;
 }
 
@@ -43,6 +43,13 @@ a:hover {
     padding-top: 50px;
 }
 
+h2 {
+    text-align: center;
+    padding-top: 50px;
+    color: linen;
+    text-shadow: 1px 1px 1px black;
+}
+
 #quad-map {
     width: 90%;
     border-radius: 15px;
@@ -53,5 +60,7 @@ a:hover {
 }
 
 #map-links {
-    float: right;
+    position: absolute;
+    color: white;
+    text-shadow: 1px 1px 1px black;
 }
