@@ -23,6 +23,17 @@ a:hover {
     font-size: x-large;
 }
 
+nav a {
+    font-family: 'Lobster', cursive;
+    display: block;
+    padding: 8px;
+    border-radius: 4px;
+    user-select: none;
+    text-decoration: none;
+    color: whitesmoke;
+    text-shadow: 1px 1px 1px black;
+}
+
 .app-title {
     color: white;
     font-family: 'Lobster', cursive;
@@ -31,7 +42,7 @@ a:hover {
     display: flex;
     align-items: center;
     display: inline-block;
-    padding-top: 40px;
+    padding-top: 90px;
     word-spacing: 8px;
 }
 
@@ -40,6 +51,8 @@ p {
     font-size: 40px;
     padding-top: 60px;
     padding-bottom: 60px;
+    color: whitesmoke;
+    text-shadow: 1px 1px 1px black;
 }
 
 #quadrant-hikes {
@@ -61,4 +74,9 @@ p {
 
 #attractions {
     padding-bottom: 60px;
+}
+
+#hike-name {
+    color: whitesmoke;
+    text-shadow: 1px 1px 1px black;
 }
