@@ -49,13 +49,13 @@ let favoritObject = userObject.favorites;
 let checkbox = document.querySelector('input[name=favorite]');
 
 
-checkbox.addEventListener('change', function() {
+checkbox.addEventListener('change', function () {
     if (checkbox.checked) {
         const key = hike.id;
-       // const favHike = findById(hike.id, userObject.favorites);
-       // if (!favHike) {
-        favoritObject[key] = hike;    
-       // }
+        // const favHike = findById(hike.id, userObject.favorites);
+        // if (!favHike) {
+        favoritObject[key] = hike;
+        // }
         addLocalStorage(userObject.id, userObject);
     }
 });
