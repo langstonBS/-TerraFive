@@ -44,7 +44,7 @@ a:hover {
 }
 
 #quad-map {
-    width: 70%;
+    width: 90%;
     border-radius: 15px;
     border: solid 1px black;
     text-align: center;
@@ -53,5 +53,5 @@ a:hover {
 }
 
 #map-links {
-    float: bottom;
+    float: right;
 }
