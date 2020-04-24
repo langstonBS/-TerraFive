@@ -5,7 +5,10 @@ body {
     margin: 40px;
     background-image: url("../assets/city-image/brick.jpeg");
 }
-
+nav {
+    position: absolute;
+    top: 40px;
+}
 main {
     margin-left: 100px;
     margin-right: 100px;

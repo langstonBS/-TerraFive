@@ -4,17 +4,42 @@ body {
     background-image: url("../assets/city-image/brick.jpeg");
 }
 
-main {
+nav {
+    position: absolute;
+    top: 40px;
+}
+#nav a {
+    color: whitesmoke;
+}
+.app-title {  
+    color: white;  
+    font-family: 'Lobster', cursive; 
+    font-size: 70px;
+    text-shadow: 5px 7px black;
     display: flex;
+    align-items: center;
+    display: inline-block; 
+    padding-top: 90px;}
+main {
+    position: relative;
     margin: 50px;
-    padding-top:
-    100px;
+    padding-top: 50px;
     align-items: center;
     background-color: rgba(82, 75, 75, 0.514);
     border-radius: 10px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
     padding-left: 60px;
     padding-right: 60px;
+}
+
+.map-image {
+
+    text-align: center;
+}
+form {
+    z-index: 1;
+    float: left;
+    justify-content: center;
 }
 
 .header-img {
@@ -26,7 +51,19 @@ main {
     text-align: center;
     box-shadow:  20px 20px 30px 10px rgb(59, 59, 59);
 }
+label {
+    padding-bottom: 15px;
+    color: blanchedalmond;
+}
 
+h1 {
+    padding-bottom: 20px;
+    color: rgb(108, 189, 122);
+}
+
+.map-image {
+    padding-top: 15px;
+}
 #specific-hike-map {
     max-width: 80%;
 }
@@ -36,13 +73,31 @@ main {
 }
 
 p {
+    z-index: 3;
     color: whitesmoke;
 }
 
 h2 {
-    color: whitesmoke;
+    padding-bottom: 10px;
+    color: rgb(108, 189, 122);
 }
 
 #attractions{
     color: whitesmoke;
+}
+
+.attractions {
+    z-index: 2;
+    float: left;
+}
+article {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    z-index: 3;
+    float: left;
+}
+
+li {
+    list-style: none;
+    padding-bottom: 10px;
 }
