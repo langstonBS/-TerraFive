@@ -80,3 +80,42 @@ p {
     color: whitesmoke;
     text-shadow: 1px 1px 1px black;
 }
+
+/*Radio Button Styling */
+ul {
+    list-style: none;
+}
+li {
+    display: inline-block;
+}
+
+[type=radio] {
+    opacity: 0;
+}
+
+label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(168, 156, 167, 0.5);
+    border-radius: 30px;
+    transition: 0.4s;
+    margin: 1rem;
+    padding: 0.5rem;
+}
+
+label:hover {
+    transform: scale(1.1);
+}
+
+label h3 {
+    font-size: 1.5rem;
+    
+}
+
+h2 {
+    font-size: 3rem;
+    background-color: rgba(168, 156, 167, 0.5);
+    border-radius: 20px;
+    padding: 20px;
+}
