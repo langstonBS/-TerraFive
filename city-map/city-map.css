@@ -4,6 +4,40 @@ body {
     background-image: url("../assets/city-image/brick.jpeg");
 }
 
+nav {
+    display: flex;
+    position: absolute;
+    float: bottom;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    align-content: right;
+    list-style-type: none;
+    width: 663px;
+    margin: auto;
+}
+
+nav li {
+    float: left;
+    border-radius: 4px;
+    display: block;
+}
+
+nav a {
+    font-family: 'Lobster', cursive;
+    display: block;
+    padding: 8px;
+    border-radius: 4px;
+    user-select: none;
+    text-decoration: none;
+    color: whitesmoke;
+    text-shadow: 1px 1px 1px black;
+}
+
+
+
 main {
     margin-left: 100px;
 }
@@ -20,12 +54,12 @@ main {
 }
 
 a {
-    color: rgb(14, 13, 13);
+    color: whitesmoke;
     padding: 50px;
 }
 
 a:hover {
-    font-size: x-large;
+    background-color: rgba(32, 109, 109, 0.233);
 }
 
 #map-links {
@@ -40,7 +74,7 @@ a:hover {
     display: flex;
     align-items: center;
     display: inline-block;
-    padding-top: 50px;
+    padding-top: 100px;
 }
 
 h2 {
