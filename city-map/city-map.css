@@ -1,6 +1,7 @@
 body {
+    back
     margin: 40px;
-    background-image: url("../assets/city-image/pink-brick.jpeg");
+    background-image: url("../assets/city-image/purple-brick.jpeg");
 }
 
 main {
