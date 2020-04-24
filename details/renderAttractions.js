@@ -1,4 +1,7 @@
-//Function to create list elements for the attractions in the hike details page (returns an li html element)
+//Function to create list elements for the attractions 
+//in the hike details page(returns an li html element)
+
+
 export default function renderAttraction(attraction) {
     const li = document.createElement('li');
     const name = document.createElement('h4');

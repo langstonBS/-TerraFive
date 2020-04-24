@@ -2,9 +2,10 @@
 //if the data is not complet then spits out an error message and returns
 //if data exsits then loads the key value and sends the user to the maps
 // if data key value dose not exsit then it creates new user
-
 //takes in two strings and uppers them for comparing.
-
+// take user id and put in search params
+// else take user from local storage and put id
+// in search params
 
 
 import createUser from './common/user.js';
@@ -45,14 +46,4 @@ formData.addEventListener('submit', (event) => {
 
 
 
-    // take user id and put in search params
-    // else take user from local storage and put id
-    // in search params
 
-
-    //URLSearchParams.append(x, emailData.toUpperCase());
-
-    //get log in data
-    //creates usre 
-        //userlist
-          //

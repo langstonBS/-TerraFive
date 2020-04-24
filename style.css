@@ -61,3 +61,37 @@ button {
     padding: 4px;
     
 }
+nav {
+    display: flex;
+    
+}
+
+nav ul {
+    align-content: right;
+    list-style-type: none;
+    width: 663px;
+    margin: auto;
+    
+    
+    }
+
+nav li {
+    float: left;
+    border-radius: 4px;
+    display: block;
+}
+
+nav a {
+    
+    font-family: 'Lobster', cursive;
+    display: block;
+    padding: 8px;
+    border-radius: 4px;
+    user-select: none;
+    text-decoration: none;
+    color: rgb(41, 40, 40);
+}
+
+a:hover {
+    background-color: rgba(32, 109, 109, 0.233);
+}
