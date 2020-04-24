@@ -1,3 +1,7 @@
+//get data from url perams
+// and run that agenst the dataset form hikes
+//dispays the best perams
+
 import hikes from '../data/data.js';
 import findByQuadrant from '../common/findByQuadrant.js';
 import renderSpecificHike from './renderSpecificHike.js';
@@ -8,7 +12,6 @@ getAndSendToUser();
 
 const keyID = serchId.get('userId');
 const mapId = serchId.get('mapQuadId');
-// const localVar = localStorage.getItem(keyID);
 
 const quadrant = mapId;
 

@@ -1,3 +1,6 @@
+//creates a layout for displaying the hike data
+
+
 export default function renderSpecificHike(hike, userId, quadId) {
 
     const label = document.createElement('label');

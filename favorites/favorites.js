@@ -1,4 +1,10 @@
 //beter coments
+//pull down the local storage
+//find by the key
+//pars localstorages
+//get the favorit object
+//loop and display 
+
 
 import getAndSendToUser from '../common/exportUserIdToWindo.js';
 import getObjectById from '../common/getObjectById.js';
@@ -8,12 +14,6 @@ import removeFromFavorits from '../common/removeFromLocal.js';
 import addLocalStorge from '../common/addLocalStorage.js';
 getAndSendToUser();
 
-// pull down the local storage
-//find by the key
-//pars localstorages
-//get the favorit object
-
-//loop and display 
 
 const serchId = new URLSearchParams(window.location.search);
 

@@ -21,14 +21,6 @@ main {
     box-shadow:  20px 20px 30px 10px rgb(59, 59, 59);
 }
 
-a {
-    color: rgb(41, 40, 40);
-    padding: 50px;
-}
-
-a:hover {
-    font-size: x-large;
-}
 
 .app-title {
     color: white;
@@ -51,6 +43,7 @@ p {
 form {
     width: 700px;
 }
+
 
 #quadrant-hikes {
     display: flex;
@@ -76,4 +69,40 @@ form {
 
 #hike-name {
     float: right;
+}
+nav {
+    position: relative;
+    
+    display: flex;
+    
+}
+
+nav ul {
+    align-content: right;
+    list-style-type: none;
+    width: 663px;
+    margin: auto;
+    
+    
+    }
+
+nav li {
+    float: left;
+    border-radius: 4px;
+    display: block;
+}
+
+nav a {
+    
+    font-family: 'Lobster', cursive;
+    display: block;
+    padding: 8px;
+    border-radius: 4px;
+    user-select: none;
+    text-decoration: none;
+    color: rgb(41, 40, 40);
+}
+
+a:hover {
+    background-color: rgba(32, 109, 109, 0.233);
 }

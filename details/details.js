@@ -43,19 +43,15 @@ hike.attractions.forEach(attraction => {
 
 
 let user = getObjectById();
-//const favorites = [];
 let userObject = JSON.parse(user);
 let favoritObject = userObject.favorites;
 let checkbox = document.querySelector('input[name=favorite]');
 
-
-checkbox.addEventListener('change', function () {
+checkbox.addEventListener('change', function() {
     if (checkbox.checked) {
-        const key = hike.id;
-        // const favHike = findById(hike.id, userObject.favorites);
-        // if (!favHike) {
+        const key = hike.id; 
         favoritObject[key] = hike;
-        // }
+        
         addLocalStorage(userObject.id, userObject);
     }
 });
