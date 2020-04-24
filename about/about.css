@@ -26,6 +26,17 @@ a:hover {
     font-size: x-large;
 }
 
+nav a {
+    font-family: 'Lobster', cursive;
+    display: block;
+    padding: 8px;
+    border-radius: 4px;
+    user-select: none;
+    text-decoration: none;
+    color: whitesmoke;
+    text-shadow: 1px 1px 1px black;
+}
+
 #devs {
    display: inline-flex;
 }
