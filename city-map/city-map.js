@@ -5,41 +5,26 @@ import getAndSendToUser from '../common/exportUserIdToWindo.js';
 
 getAndSendToUser();
 
-const a = document.createElement('a');
-const b = document.createElement('a');
-const c = document.createElement('a');
-const d = document.createElement('a');
+const nw = document.getElementById('northwest');
+const ne = document.getElementById('northeast');
+const se = document.getElementById('southeast');
+const sw = document.getElementById('southwest');
 const serchId = new URLSearchParams(window.location.search);
 const keyID = serchId.get('userId');
-const getUl = document.getElementById('map-links');
-
 
 mapdata();
 
 function mapdata() {
 
 
-    a.href = `../hike-list/index.html?userId=${keyID}&mapQuadId=Northwest`;
-    a.textContent = 'Northwest';
-    b.href = `../hike-list/index.html?userId=${keyID}&mapQuadId=Northeast`;
-    b.textContent = 'Northeast';
-    c.href = `../hike-list/index.html?userId=${keyID}&mapQuadId=Southwest`;
-    c.textContent = 'Southwest';
-    d.href = `../hike-list/index.html?userId=${keyID}&mapQuadId=Southeast`;
-    d.textContent = 'Southeast';
-
-    checkAndApend(a);
-    checkAndApend(b);
-    checkAndApend(c);
-    checkAndApend(d);
-}
-
-function checkAndApend(navURL) {
-    const li = document.createElement('li');
-
-    li.appendChild(navURL);
-    getUl.appendChild(li);
-
+    nw.href = `../hike-list/index.html?userId=${keyID}&mapQuadId=Northwest`;
+    nw.textContent = 'Northwest';
+    ne.href = `../hike-list/index.html?userId=${keyID}&mapQuadId=Northeast`;
+    ne.textContent = 'Northeast';
+    sw.href = `../hike-list/index.html?userId=${keyID}&mapQuadId=Southwest`;
+    sw.textContent = 'Southwest';
+    se.href = `../hike-list/index.html?userId=${keyID}&mapQuadId=Southeast`;
+    se.textContent = 'Southeast';
 }
 
 
