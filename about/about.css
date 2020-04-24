@@ -1,4 +1,5 @@
 body {
+    background-color: rgb(37, 29, 37);
     margin: 40px;
     background-image: url("../assets/city-image/portland-old-town.jpg");
 }
@@ -38,6 +39,20 @@ a:hover {
     border-radius: 5px;
     box-shadow:  5px 5px 5px 5px rgba(41, 40, 40, 0.568);
     background-color: rgba(230, 230, 250, 0.671);
+    text-align: center;
+}
+
+.langston, h2 {
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+#langston {
+    border-radius: 200px;
+    height: 110px;
+    width: 110px;
+    border: 1px solid black;
+    box-shadow:  5px 5px 10px 5px rgb(59, 59, 59);
 }
 
 .nikki {
@@ -73,8 +88,22 @@ a:hover {
     border: 1.5px solid black;
     padding: 40px;
     border-radius: 5px;
+    text-align: center;
     box-shadow:  5px 5px 5px 5px rgba(41, 40, 40, 0.568);
     background-color: rgba(230, 230, 250, 0.671);
+}
+
+.alan, h2 {
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+#alan {
+    border-radius: 200px;
+    height: 110px;
+    width: 110px;
+    border: 1px solid black;
+    box-shadow:  5px 5px 10px 5px rgb(59, 59, 59);
 }
 
 .rachel {
@@ -112,4 +141,22 @@ a:hover {
     border-radius: 5px;
     box-shadow:  5px 5px 5px 5px rgba(41, 40, 40, 0.568);
     background-color: rgba(230, 230, 250, 0.671);
+    text-align: center;
+}
+
+.karl, h2 {
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+#karl {
+    border-radius: 200px;
+    height: 110px;
+    width: 110px;
+    border: 1px solid black;
+    box-shadow:  5px 5px 10px 5px rgb(59, 59, 59);
+}
+
+p {
+    font-style: italic;
 }

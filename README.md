@@ -1,4 +1,4 @@
-# -TerraFive
+# TerraFive
 
 ## Team Members
 - Alan

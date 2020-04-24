@@ -1,12 +1,14 @@
 /* padding under p tag disappears when hitting the back button in the browser */
 
 body {
+    background-color: rgb(116, 46, 46);
     margin: 40px;
-    background-image: url("../assets/city-image/pink-brick.jpeg");
+    background-image: url("../assets/city-image/brick.jpeg");
 }
 
 main {
     margin-left: 100px;
+    margin-right: 100px;
 }
 
 .header-img {
