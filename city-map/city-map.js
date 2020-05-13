@@ -15,8 +15,7 @@ const keyID = serchId.get('userId');
 mapdata();
 
 function mapdata() {
-
-
+    // again, cool use of query params to track and manipulate app state
     nw.href = `../hike-list/index.html?userId=${keyID}&mapQuadId=Northwest`;
     nw.textContent = 'Northwest';
     ne.href = `../hike-list/index.html?userId=${keyID}&mapQuadId=Northeast`;

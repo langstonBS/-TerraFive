@@ -22,6 +22,7 @@ export default function renderSpecificHike(hike, userId, quadId) {
 
     label.append(image, input, h3);
     label.addEventListener('click', () => {
+        // very createive and resourceful use of query parameters to ferry data and store global state!
         window.location = `../details/index.html?userId=${userId}&mapQuadId=${quadId}&hikeId=${hike.id}`;
     });
 

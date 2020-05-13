@@ -28,24 +28,23 @@ let favoritObject = userObject.favorites;
 
 const ul = document.getElementById('attractions');
 
-
-
+// cool use of forEach!
 hikes.forEach(element => {
     
-    if (favoritObject[element.id]) {
+    if (favoritObject[element.id]) /* nice dynamic object property! */ {
         let li = document.createElement('li');
         li = renderSpecificHike(element, userId, quadID);
         const liButton = document.createElement('li');
         const buttonRemove = document.createElement('button');
         buttonRemove.textContent = 'remove';
         buttonRemove.addEventListener('click', () => {
-
             const remove = removeFromFavorits(favoritObject, element.id);
 
             userObject.favorites = remove;
             addLocalStorge(userId, userObject);
             location.reload();
         });
+
         liButton.appendChild(buttonRemove);
         ul.appendChild(li);
         ul.appendChild(liButton);

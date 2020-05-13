@@ -12,9 +12,9 @@ import createUser from './common/user.js';
 import addLocalStorage from './common/addLocalStorage.js';
 import checkLocalStorage from './common/checkLocalStorage.js';
 
-let formData = document.getElementById('log-in');
+const formData = document.getElementById('log-in');
 
-let error = document.getElementById('errordata');
+const error = document.getElementById('errordata');
 
 
 
@@ -24,6 +24,7 @@ formData.addEventListener('submit', (event) => {
     const data = new FormData(formData);
     let nameData = data.get('name');
     let emailData = data.get('email');
+    // nice work adding validation to your form!
     if (!nameData) {
         error.textContent = 'Enter in a valid name!';
         return;
@@ -32,13 +33,15 @@ formData.addEventListener('submit', (event) => {
         error.textContent = 'Enter in a valid email!';
         return;
     }
+
+    const uppercaseEmail = emailData.toUpperCase();
     
-    if (checkLocalStorage(emailData.toUpperCase())) {
-        window.location = `./city-map/index.html?userId=${emailData.toUpperCase()}`;
+    if (checkLocalStorage(uppercaseEmail)) {
+        window.location = `./city-map/index.html?userId=${uppercaseEmail}`;
     } else {
-        let user = createUser(nameData.toUpperCase(), emailData.toUpperCase());
-        addLocalStorage(emailData.toUpperCase(), user);
-        window.location = `./city-map/index.html?userId=${emailData.toUpperCase()}`;
+        let user = createUser(nameData.toUpperCase(), uppercaseEmail);
+        addLocalStorage(uppercaseEmail, user);
+        window.location = `./city-map/index.html?userId=${uppercaseEmail}`;
     }
 }
 );

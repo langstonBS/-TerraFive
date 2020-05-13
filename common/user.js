@@ -4,15 +4,12 @@
 //is upper cased in the input function
 
 export default function createUser(nameIn, email) {
-   
-    const user = {
+    return {
         name: nameIn,
         id: email,
         img: 0,
         favorites:{ },
     };
-    
-    return user;
 }
 
 

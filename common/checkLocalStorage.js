@@ -3,7 +3,7 @@
 
 export default function checkLocalStorage(key) {
     for (let i = 0; i < localStorage.length; i++) {
-        let item = localStorage.key(i);
+        const item = localStorage.key(i);
         if (item === key) {
             return true;
         }  
