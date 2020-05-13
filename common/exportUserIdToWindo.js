@@ -1,6 +1,7 @@
 //creates HTML navagation serch
 
 
+// hmmm, not liking these unreadable names. Anybody inheriting your codebase would have a hard time keeping track of what's what
 const a = document.createElement('a');
 const b = document.createElement('a');
 const c = document.createElement('a');
@@ -17,8 +18,6 @@ const mapId = serchId.get('mapQuadId');
 
 //keeps the keyID pairs 
 export default function getAndSendToUser() {
-
-
     a.href = `../city-map/index.html?userId=${keyID}&mapQuadId=${mapId}`;
     a.textContent = 'City Map';
     b.href = `../hike-list/index.html?userId=${keyID}&mapQuadId=${mapId}`;
@@ -28,6 +27,7 @@ export default function getAndSendToUser() {
     d.href = `../about/index.html?userId=${keyID}&mapQuadId=${mapId}`;
     d.textContent = 'About Us';
     
+    // cool use of a util! this could have been an iterative solution, though: [a,b,c,d].forEach(item => checkAndAppend(item));
     checkAndApend(a);
     checkAndApend(b);
     checkAndApend(c);
